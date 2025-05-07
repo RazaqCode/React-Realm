@@ -11,6 +11,9 @@ const addValue = () =>{
   console.log("clicked",counter);
   //counter  = counter + 1 ;
   setCounter(counter + 1)
+  setCounter(counter + 1)
+  setCounter(counter + 1)
+  setCounter(counter + 1)
 
 }
 const removeValue = ()=>{
