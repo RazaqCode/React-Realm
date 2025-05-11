@@ -18,7 +18,7 @@ const addValue = () =>{
   setCounter(prevCounter => prevCounter + 1)
   setCounter(prevCounter => prevCounter + 1)
   setCounter(prevCounter => prevCounter + 1)
-
+ 
 
 
 }
