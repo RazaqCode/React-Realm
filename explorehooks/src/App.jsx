@@ -8,7 +8,15 @@ function App() {
   const [charAllowed, setCharAllowed] = useState(false)
   const [password, setPassword] = useState ("")
 
-  const passwordGenerator = useCallback(()=>{}, [length,
+  const passwordGenerator = useCallback(()=>{
+    let pass = ""
+    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+
+    if(numberAllowed) str +="0123456789"
+    if(charAllowed) str+="@$_."
+
+
+  }, [length,
     numberAllowed, charAllowed, setPassword  ])
   
   return (
